@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-sequelize-mysql",
+  "version": "1.0.0",
+  "description": "Learn REST API using Node.js, Express, Sequelize and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config server.js",
+    "test": "node -r dotenv/config server.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "jwt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.6.2",
+    "connect-redis": "^3.0.2",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.13.0",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.9.13",
+    "redis": "^2.6.0-2",
+    "sequelize": "^5.22.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
